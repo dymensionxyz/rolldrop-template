@@ -93,6 +93,7 @@ export const IconsContainer = styled.div`
 
 export const ScreenWidthColumn = styled.div`
   max-width: 1440px;
+  margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
   padding: 0 3rem;
