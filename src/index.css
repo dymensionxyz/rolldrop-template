@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --top-bar-height: 72px;
+    --page-padding: 24px;
+    --page-large-padding: 44px;
+
+    --cream-rgb: 241, 225, 212;
+    --cream-dark-rgb: 192, 180, 168;
+    --cream-very-dark-rgb: 140, 129, 121;
+    --black-rgb: 37, 33, 32;
+    --black-dark-rgb: 26, 23, 23;
+    --black-light-rgb: 49, 44, 44;
+    --red-rgb: 240, 89, 89;
+    --blue-rgb: 47, 103, 195;
+    --green-rgb: 89, 240, 190;
+    --orange-rgb: 240, 176, 89;
+
+    --cream: rgb(var(--cream-rgb));
+    --cream-dark: rgb(var(--cream-dark-rgb));
+    --cream-very-dark: rgb(var(--cream-very-dark-rgb));
+    --black: rgb(var(--black-rgb));
+    --black-dark: rgb(var(--black-dark-rgb));
+    --black-light: rgb(var(--black-light-rgb));
+    --blue: rgb(var(--blue-rgb));
+    --green: rgb(var(--green-rgb));
+    --orange: rgb(var(--orange-rgb));
+    --red: rgb(var(--red-rgb));
+
+    --text-color: var(--cream);
+    --text-color-secondary: var(--cream-very-dark);
+    --text-color-disabled: rgba(var(--cream-very-dark-rgb), 0.4);
+    --background-color: var(--black);
+    --background-color-secondary: var(--black-light);
+    --border-color: rgba(var(--cream-very-dark-rgb), 0.22);
+    --border-color-light: rgba(var(--cream-very-dark-rgb), 0.32);
+    --border-color-dark: rgba(var(--cream-very-dark-rgb), 0.12);
+
+    --text-color-inverse: var(--black);
+    --background-color-inverse: var(--cream);
+}
+
+* {
+    margin: 0;
+}
+
+*, body, h1, h2, h3, h4, h5, h6, p, a, li, span {
+    color: #f1e1d4;
+}
+
+html:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    background-color: #24201f;
+}
+
+body:before {
+    background-color: #24201f;
+}
+
+body {
+    background-color: #24201f;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+    font-family: 'TWKEverett-Medium';
+    src: local('TWKEverett-Medium'),
+    url('assets/fonts/TWKEverett-Medium-web.woff2') format('woff2'), /* Modern Browsers */ url('assets/fonts/TWKEverett-Medium-web.woff') format('woff'), /* Older Browsers */ url('assets/fonts/TWKEverett-Medium-web.ttf') format('truetype'), /* Safari, Android, iOS */ url('assets/fonts/TWKEverett-Medium.otf') format('opentype'); /* Rare use cases */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: local('TWKEverett-Medium'),
+    url('assets/fonts/TWKEverett-Medium-web.woff2') format('woff2'), /* Modern Browsers */ url('assets/fonts/TWKEverett-Medium-web.woff') format('woff'), /* Older Browsers */ url('assets/fonts/TWKEverett-Medium-web.ttf') format('truetype'), /* Safari, Android, iOS */ url('assets/fonts/TWKEverett-Medium.otf') format('opentype'); /* Rare use cases */
+    font-weight: normal;
+    font-style: normal;
+}

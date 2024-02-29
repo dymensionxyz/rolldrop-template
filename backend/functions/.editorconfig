@@ -1,0 +1,15 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+max_line_length = 120
+insert_final_newline = true
+ij_html_quote_style = single
+ij_typescript_force_quote_style = true
+
+[*.md]
+trim_trailing_whitespace = false
