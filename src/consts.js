@@ -10,6 +10,7 @@ export const expandedClockTransition = "0.5s ease 0s"
 export const disappearBodyTransition = "opacity 1s ease"
 export const appearBodyTransition = "opacity 1s ease 0.5s"
 export const errorTextColor = "#E9095A"
+
 export const claimEndDate = new Date(Date.UTC(2024, 3, 21, 12, 0, 0));
 
 export const strings = {
