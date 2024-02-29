@@ -47,7 +47,7 @@ export const App = () => {
             <FullScreenContainer src={grid} />
             <PageWrapper
                 renderFooter={state === State.Landing}
-                title={state === State.Eligible ? 'Welcome to ' + strings.Name : 'Genesis Rolldrop'}
+                title={state === State.Eligible ? 'Welcome to ' + strings.Name : strings.Name + ' Rolldrop'}
                 timeLeftExpanded={state === State.Landing}
             >
                 <LandingPageBody

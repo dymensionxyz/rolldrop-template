@@ -1,4 +1,4 @@
-# Airdrop Template
+# Rolldrop Template
 
 ---
 
